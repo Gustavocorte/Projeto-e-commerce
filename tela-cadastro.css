@@ -2,6 +2,14 @@ html {
     height: 100%;
 }
 
+input[type="button" i] {
+    opacity: 0;
+    position: absolute;
+    top: 77.5%;
+    left: 31.5%;
+    font-size: 40px;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -26,6 +34,7 @@ body {
     padding: 0;
     color: #fff;
     text-align: center;
+    font-size: 40px;
 }
 
 .login-box .user-box {
@@ -58,7 +67,7 @@ body {
 .termos{
     position: absolute;
     top: 72%;
-    left: 1.55%;
+    left: 9%;
     width: 800px;
     color: white;
     font: normal 18px arial;

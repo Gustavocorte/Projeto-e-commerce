@@ -26,7 +26,7 @@
 
             </div>
             <div class="user-box">
-                <input type="text" name="" required="" id="txtemail">
+                <input type="email" name="" required="" id="txtemail">
                 <label>E-mail</label>
             </div>
             <div class="user-box">
@@ -37,6 +37,8 @@
                 <input type="password" name="" required="" id="txtcsenha">
                 <label>Confirme a Senha</label>
             </div><br><br>
+            <div class="cas">
+            </div>
             <a href="#">
                 <span></span>
                 <span></span>
@@ -44,11 +46,14 @@
                 <span></span>
                 Cadastrar
             </a>
-            
         </form>
     </div>
         <div class="termos">
-            <input type="checkbox" name="" id="box1"> Eu concordo com os <a id="termos" href="termos.html">termos</a> e <a id="termos" href="condições.html">condições</a>
+            <input type="checkbox" name="termos" id="box1"> Eu concordo com os <a id="termos" href="termos.html">termos</a> e <a id="termos" href="condições.html">condições</a>
+            <input type="radio" name="radsex" id="mas">
+        </div>
+        <div>
+                <input type="button" name="cadas" value="             " onclick="cadastrar()">
         </div>
     <footer>
         <p>&copy; gustavocortes</p>
